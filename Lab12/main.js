@@ -25,7 +25,7 @@ $('#shakey').click(function() {
           fillColor: 'red',
           fillOpacity:0.8
       })
-      //and add it to map
+      //and add it to map.
       circle.addTo(mymap);
     })
   });
