@@ -11,7 +11,7 @@ var client = new Twitter({
 
 app.use(express.static('public'))
 app.get('/', function(req, res){
-  var params = {screen_name: 'nodejs'};
+  var params = {screen_name: 'BarryStantonGB'};
   client.get('statuses/user_timeline', params, function(error, tweets, response) {
     if (!error) {
       var output = "";
